@@ -158,7 +158,7 @@ ESLint `import/order` 규칙 기본값을 따르며, 그룹 사이는 빈 줄로
 ## Lint / Format 세팅
 
 새 프로젝트는 **ESLint + Prettier**를 반드시 설치하고, 커밋 전에 동작하도록 맞춘다.
-개인 공용 config(`@/eslint-config`, `@/prettier-config` 등)가 있으면 그것을 우선 사용하고, 없을 때만 아래 기본 세팅을 따른다.
+개인 공용 config(`@conychoi/eslint-config`, `@conychoi/prettier-config` 등)가 있으면 그것을 우선 사용하고, 없을 때만 아래 기본 세팅을 따른다.
 
 ### ESLint (v9 flat config)
 
