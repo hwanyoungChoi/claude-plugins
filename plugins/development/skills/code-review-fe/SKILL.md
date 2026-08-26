@@ -1,5 +1,5 @@
 ---
-name: code-reiview-fe
+name: code-review-fe
 description:
   프론트엔드(React/Next.js/TypeScript) staged 변경사항을 FE 컨벤션 기준으로 셀프 리뷰. 디렉토리 위치·API
   호출(react-query)·네이밍·queryKey·hooks 안티패턴 등을 references/CONVENTIONS.md 기준으로 검출.

@@ -1,17 +1,12 @@
 {
-  "name": "cony-plugins",
+  "name": "my-plugins",
   "owner": {
     "name": "HwanyoungChoi"
   },
   "plugins": [
     {
-      "name": "communication",
-      "source": "./communication",
-      "description": "커뮤니케이션 플러그인"
-    },
-    {
       "name": "development",
-      "source": "./development",
+      "source": "./plugins/development",
       "description": "개발용 플러그인"
     }
   ]

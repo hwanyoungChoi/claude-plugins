@@ -1,0 +1,24 @@
+{
+  "name": "development",
+  "version": "0.1.0",
+  "description": "개발 워크플로우를 돕는 공통 에이전트 스킬 모음",
+  "author": {
+    "name": "HwanyoungChoi",
+    "url": "https://github.com/hwanyoungChoi"
+  },
+  "repository": "https://github.com/hwanyoungChoi/my-plugins",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Development Skills",
+    "shortDescription": "개발 워크플로우 공통 스킬",
+    "longDescription": "코드 리뷰, 커밋 메시지 작성, 기획서 검토를 위한 공통 개발 스킬 모음입니다.",
+    "developerName": "HwanyoungChoi",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "현재 변경사항을 검토해줘.",
+      "커밋 메시지를 추천해줘.",
+      "이 기획서를 개발 관점에서 검토해줘."
+    ]
+  }
+}
